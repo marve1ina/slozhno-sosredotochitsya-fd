@@ -5,8 +5,18 @@
 */
 
 :root.theme-dark {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --background-image: var(--background-image-dark);
+  --background-color: var(--primary-color-dark);
+  --accent-color: var(--accent-color-dark);
+  --decor-color: var(--accent-color-dark);
+  --menu-color: var(--accent-color-dark);
+  --heading-color: var(--highlight-color-dark);
+  --title-color: var(--accent-color-dark);
+  --title-on-bg: var(--primary-color-dark);
+  --title-bg: var(--accent-color-dark);
+  --text-color: var(--text-color-dark);
+}
+
+html.theme-dark .header__decor {
+  display: block;
 }

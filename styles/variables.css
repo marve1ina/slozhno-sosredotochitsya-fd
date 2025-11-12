@@ -1,7 +1,33 @@
-:root{
-  --background-image: url(../images/cover-image-dark.png);
-  --primary-color: #000028;
-  --text-color: #F1B2CE;
-  --accent-color: #FF0070;
-  --highlight-color:#DB00FF;
+:root {
+  --background-image-dark: url(../images/cover-image-dark.png);
+  --primary-color-dark: #000028;
+  --text-color-dark: #f1b2ce;
+  --accent-color-dark: #ff0070;
+  --highlight-color-dark: #db00ff;
+  --background-image-light: url(../images/cover-image-light.png);
+  --primary-color-light: #fff1f7;
+  --text-color-light: #353430;
+  --accent-color-light: #ff8dcb;
+  --highlight-color-light: #ffc2e6;
+
+  --space: 10px;
+  --heading-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+
+  --background-image: var(--background-image-dark);
+  --background-color: var(--primary-color-dark);
+  --accent-color: var(--accent-color-dark);
+  --decor-color: var(--accent-color-dark);
+  --menu-color: var(--accent-color-dark);
+  --heading-color: var(--highlight-color-dark);
+  --title-color: var(--accent-color-dark);
+  --title-on-bg: var(--primary-color-dark);
+  --title-bg: var(--accent-color-dark);
+  --text-color: var(--text-color-dark);
+}
+
+@media (width >= 768px) {
+  :root {
+    --space: 20px;
+    --heading-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
 }
