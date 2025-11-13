@@ -5,18 +5,29 @@
 */
 
 :root.theme-dark {
-  --background-image: var(--background-image-dark);
-  --background-color: var(--primary-color-dark);
-  --accent-color: var(--accent-color-dark);
-  --decor-color: var(--accent-color-dark);
-  --menu-color: var(--accent-color-dark);
-  --heading-color: var(--highlight-color-dark);
-  --title-color: var(--accent-color-dark);
-  --title-on-bg: var(--primary-color-dark);
-  --title-bg: var(--accent-color-dark);
-  --text-color: var(--text-color-dark);
+  --background-image: url(../images/cover-image-dark.png);
+  --primary-color: #000028;
+  --text-color: #f1b2ce;
+  --accent-color: #ff0070;
+  --highlight-color: #db00ff;
 }
 
 html.theme-dark .header__decor {
   display: block;
+}
+
+html.theme-dark .decorated-zone {
+  color: var(--accent-color);
+}
+
+html.theme-dark .header__theme-menu {
+  color: var(--accent-color);
+}
+
+html.theme-dark .title-accent {
+  color: var(--accent-color);
+}
+
+html.theme-dark .title-decor {
+  color: var(--primary-color);
 }
