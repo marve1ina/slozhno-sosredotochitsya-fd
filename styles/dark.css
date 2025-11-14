@@ -9,25 +9,11 @@
   --primary-color: #000028;
   --text-color: #f1b2ce;
   --accent-color: #ff0070;
-  --highlight-color: #db00ff;
+  --accent-shadow-color:#ff0070;
+  --on-accent-bg-color: #000028;
+  --hero-title-color: #db00ff;
 }
 
 html.theme-dark .header__decor {
   display: block;
-}
-
-html.theme-dark .decorated-zone {
-  color: var(--accent-color);
-}
-
-html.theme-dark .header__theme-menu {
-  color: var(--accent-color);
-}
-
-html.theme-dark .title-accent {
-  color: var(--accent-color);
-}
-
-html.theme-dark .title-decor {
-  color: var(--primary-color);
 }

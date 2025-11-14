@@ -1,9 +1,11 @@
 :root {
   --background-image: url(../images/cover-image-dark.png);
-  --primary-color: #000028;
+  --bg-color: #000028;
   --text-color: #f1b2ce;
   --accent-color: #ff0070;
-  --highlight-color: #db00ff;
+  --accent-shadow-color:#ff0070;
+  --on-accent-bg-color: #000028;
+  --hero-title-color: #db00ff;
 
   --space: 10px;
   --heading-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
